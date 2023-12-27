@@ -1,40 +1,122 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p>
+  <h1 align="center">OYO Rooms Clone</h1>
+</p>
+
+##### OYO Rooms end-end clone with integrationg payment gateway,Google maps,OAuth,SMS notifications.
+
+![alt text](https://i.imgur.com/HGxpCOF.png "Home Screenshot")
+
+## Features
+
+- [x] Google Auto-search location
+- [x] pagination
+- [x] filtering in listing page
+- [x] Integration of Google maps
+- [x] pin nearby hotels on map
+- [x] Google Analytics
+- [x] OTP login
+- [x] Google OAuth login
+- [x] Select type of rooms
+- [x] check availability of rooms
+- [x] recommendations based on meta data
+- [x] Integrate Payment Gateway
+- [ ] send emails to user on booking confirmation.
+
+## Overview of Application:
+
+1. Home Page
+
+   ![N|Solid](https://i.imgur.com/HGxpCOF.png)
+
+2. Login Page
+
+   ![N|Solid](https://i.imgur.com/B929ry4.png)
+
+3. Listing Page
+
+   ![N|Solid](https://i.imgur.com/x06Focr.png)
+
+4. Entity Page
+
+   ![N|Solid](https://i.imgur.com/zqzWlzV.png)
+   ![N|Solid](https://i.imgur.com/tVY6rNb.png)
+   ![N|Solid](https://i.imgur.com/ZarIAmM.png)
+
+5) Payment Page
+
+   ![N|Solid](https://i.imgur.com/mRsXX0c.png)
+   ![N|Solid](https://i.imgur.com/cJcSbsj.png)
+
+6. Booking confirmation Page
+
+   ![N|Solid](https://i.imgur.com/O3mE2rl.png)
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+
+## About The Project
+
+A Clone of oyorooms.com. Key Features
+
+- User can book hotels.
+- OAuth login and registration.
+- User can filter listing of apartments according to services provided.
+- Recommendation logic based on filters applied by user.
+- Check the availability of hotels.
+- Book a hotel by paying through payment gateway.
+
+### Built With
+
+- Frontend
+  - [React](https://reactjs.org/)
+  - [Redux](https://redux.js.org/)
+  - [Bootstrap](https://getbootstrap.com/)
+- Backend
+  - [Python](https://www.python.org/)
+  - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+  - [MySQL](https://www.mysql.com/)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+- npm
+
+```sh
+npm install npm@latest -g
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- pip
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+sudo apt install python-pip
+sudo pip install virtualenv
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone the repo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+git clone https://github.com/satishbonam/EYO-rooms.git
+```
 
-## Learn More
+2. For Frontend,install NPM packages
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. For Backend,create virtual environment and install pip packages from requirements.txt
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+virtualenv venv
+pip install -r requirements.txt
+```
