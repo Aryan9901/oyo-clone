@@ -3,21 +3,21 @@ import Image from "next/image";
 const Footer = () => {
 	return (
 		<div className="flex w-full bg-[#6d787d] flex-col px-20">
-			<div className="flex items-center justify-between gap-16 py-1  border-b border-[#fff]">
-				<Image src="/logo.png" alt="logo" width="200" height="200" className="w-28 h-28" />
+			<div className="flex mt-4 pb-3 items-center justify-between gap-16 py-1  border-b border-[#fff]">
+				<Image src="/logo2.png" alt="logo" width="200" height="200" className="w-24 h-10" />
 				<h2 className="w-fit text-2xl text-white font-bold ">World&apos;s leading chain of hotels and homes</h2>
 				<h2 className="w-fit text-2xl  text-white font-bold">Join our network and grow your business!</h2>
 				<button className="bg-white px-4 py-3 rounded-md text-sm font-bold w-56">List Your Property</button>
 			</div>
 			<div className="flex justify-between py-4 border-b border-[#ffffffa2] items-center">
-				<div className="flex flex-col h-full items-start border-r border-white pr-6">
+				<div className="flex flex-col h-full items-start pr-6">
 					<h3 className="text-center mb-2 font-semibold text-lg text-white">Download OYO app for exciting offers.</h3>
 					<div className="flex  items-center">
 						<Image src="/playstore.png" alt="download button for android" width="200" height="200" className="w-44" />
 						<Image src="/appstore.svg" alt="download button for ios" width="200" height="200" className="w-36" />
 					</div>
 				</div>
-				<div className="grid grid-cols-2 py-2 px-4 gap-1 place-items-start pr-6 pl-6 border-r border-white">
+				<div className="grid grid-cols-2 py-2 px-4 gap-1 place-items-start pr-6 pl-6 border-l border-r border-white">
 					<p className="text-lg  text-white">About us</p>
 					<p className="text-lg  text-white">Official OYO Blog</p>
 					<p className="text-lg  text-white">Team / Carrers</p>

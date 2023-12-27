@@ -12,14 +12,6 @@ function Home() {
 		<>
 			<Head>
 				<title className="text-3xl font-bold text-red-500">OYO : India&apos;s Best Online Hotel Booking Site For Sanitized Stay.</title>
-				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css"
-					integrity="sha512-dTsohxprpcruDm4sjU92K0/Gf1nTKVVskNHLOGMqxmokBSkfOAyCzYSB6+5Z9UlDafFRpy5xLhvpkOImeFbX6A=="
-					crossorigin="anonymous"
-					referrerpolicy="no-referrer"
-				/>
-				<link rel="icon" href="/icon.ico" />
 			</Head>
 			<Header1 />
 			<Header2 />
